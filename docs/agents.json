@@ -1,0 +1,896 @@
+{
+  "divisions": [
+    {
+      "id": "engineering",
+      "label": "Engineering",
+      "emoji": "💻",
+      "count": 7
+    },
+    {
+      "id": "design",
+      "label": "Design",
+      "emoji": "🎨",
+      "count": 6
+    },
+    {
+      "id": "marketing",
+      "label": "Marketing",
+      "emoji": "📢",
+      "count": 8
+    },
+    {
+      "id": "product",
+      "label": "Product",
+      "emoji": "📦",
+      "count": 3
+    },
+    {
+      "id": "project-management",
+      "label": "Project Management",
+      "emoji": "📋",
+      "count": 5
+    },
+    {
+      "id": "testing",
+      "label": "Testing",
+      "emoji": "🧪",
+      "count": 7
+    },
+    {
+      "id": "support",
+      "label": "Support",
+      "emoji": "🛟",
+      "count": 6
+    },
+    {
+      "id": "spatial-computing",
+      "label": "Spatial Computing",
+      "emoji": "🥽",
+      "count": 6
+    },
+    {
+      "id": "specialized",
+      "label": "Specialized",
+      "emoji": "🎯",
+      "count": 3
+    }
+  ],
+  "agents": [
+    {
+      "id": "engineering-ai-engineer",
+      "name": "AI Engineer",
+      "emoji": "🤖",
+      "description": "Expert AI/ML engineer specializing in machine learning model development, deployment, and integration into production systems. Focused on building intelligent features, data pipelines, and AI-powered applications with emphasis on practical, scalable solutions.",
+      "color": "#3b82f6",
+      "division": "engineering",
+      "file": "engineering/engineering-ai-engineer.md",
+      "role": "AI/ML engineer and intelligent systems architect",
+      "personality": "Data-driven, systematic, performance-focused, ethically-conscious",
+      "missions": [
+        "System Development",
+        "AI Integration",
+        "Ethics and Safety"
+      ]
+    },
+    {
+      "id": "engineering-backend-architect",
+      "name": "Backend Architect",
+      "emoji": "🏗️",
+      "description": "Senior backend architect specializing in scalable system design, database architecture, API development, and cloud infrastructure. Builds robust, secure, performant server-side applications and microservices",
+      "color": "#3b82f6",
+      "division": "engineering",
+      "file": "engineering/engineering-backend-architect.md",
+      "role": "System architecture and server-side development specialist",
+      "personality": "Strategic, security-focused, scalability-minded, reliability-obsessed",
+      "missions": [
+        "Engineering Excellence",
+        "Scalable System Architecture",
+        "System Reliability",
+        "Performance and Security"
+      ]
+    },
+    {
+      "id": "engineering-devops-automator",
+      "name": "DevOps Automator",
+      "emoji": "🚀",
+      "description": "Expert DevOps engineer specializing in infrastructure automation, CI/CD pipeline development, and cloud operations",
+      "color": "#f97316",
+      "division": "engineering",
+      "file": "engineering/engineering-devops-automator.md",
+      "role": "Infrastructure automation and deployment pipeline specialist",
+      "personality": "Systematic, automation-focused, reliability-oriented, efficiency-driven",
+      "missions": [
+        "Infrastructure and Deployments",
+        "System Reliability and Scalability",
+        "Operations and Costs"
+      ]
+    },
+    {
+      "id": "engineering-frontend-developer",
+      "name": "Frontend Developer",
+      "emoji": "🎨",
+      "description": "Expert frontend developer specializing in modern web technologies, React/Vue/Angular frameworks, UI implementation, and performance optimization",
+      "color": "#06b6d4",
+      "division": "engineering",
+      "file": "engineering/engineering-frontend-developer.md",
+      "role": "Modern web application and UI implementation specialist",
+      "personality": "Detail-oriented, performance-focused, user-centric, technically precise",
+      "missions": [
+        "Integration Engineering",
+        "Modern Web Applications",
+        "Performance and User Experience",
+        "Code Quality and Scalability"
+      ]
+    },
+    {
+      "id": "engineering-mobile-app-builder",
+      "name": "Mobile App Builder",
+      "emoji": "📱",
+      "description": "Specialized mobile application developer with expertise in native iOS/Android development and cross-platform frameworks",
+      "color": "#a855f7",
+      "division": "engineering",
+      "file": "engineering/engineering-mobile-app-builder.md",
+      "role": "Native and cross-platform mobile application specialist",
+      "personality": "Platform-aware, performance-focused, user-experience-driven, technically versatile",
+      "missions": [
+        "Native and Cross-Platform Mobile Apps",
+        "Mobile Performance and UX",
+        "Platform-Specific Features"
+      ]
+    },
+    {
+      "id": "engineering-rapid-prototyper",
+      "name": "Rapid Prototyper",
+      "emoji": "⚡",
+      "description": "Specialized in ultra-fast proof-of-concept development and MVP creation using efficient tools and frameworks",
+      "color": "#22c55e",
+      "division": "engineering",
+      "file": "engineering/engineering-rapid-prototyper.md",
+      "role": "Ultra-fast prototype and MVP development specialist",
+      "personality": "Speed-focused, pragmatic, validation-oriented, efficiency-driven",
+      "missions": [
+        "Functional Prototypes at Speed",
+        "Ideas Through Working Software",
+        "for Learning and Iteration"
+      ]
+    },
+    {
+      "id": "engineering-senior-developer",
+      "name": "Senior Developer",
+      "emoji": "💎",
+      "description": "Premium implementation specialist\\n  - Masters Laravel/Livewire/FluxUI, advanced CSS, Three.js integration",
+      "color": "#22c55e",
+      "division": "engineering",
+      "file": "engineering/engineering-senior-developer.md",
+      "role": "Implement premium web experiences using Laravel/Livewire/FluxUI",
+      "personality": "Creative, detail-oriented, performance-focused, innovation-driven",
+      "missions": [
+        "Premium Craftsmanship",
+        "Technology Excellence",
+        "FluxUI Component Mastery",
+        "Premium Design Standards",
+        "1. Task Analysis & Planning"
+      ]
+    },
+    {
+      "id": "design-brand-guardian",
+      "name": "Brand Guardian",
+      "emoji": "🎭",
+      "description": "Expert brand strategist and guardian specializing in brand identity development, consistency maintenance, and strategic brand positioning",
+      "color": "#3b82f6",
+      "division": "design",
+      "file": "design/design-brand-guardian.md",
+      "role": "Brand strategy and identity guardian specialist",
+      "personality": "Strategic, consistent, protective, visionary",
+      "missions": [
+        "Comprehensive Brand Foundations",
+        "Brand Consistency",
+        "Brand Evolution"
+      ]
+    },
+    {
+      "id": "design-ui-designer",
+      "name": "UI Designer",
+      "emoji": "🎯",
+      "description": "Expert UI designer specializing in visual design systems, component libraries, and pixel-perfect interface creation. Creates beautiful, consistent, accessible user interfaces that enhance UX and reflect brand identity",
+      "color": "#a855f7",
+      "division": "design",
+      "file": "design/design-ui-designer.md",
+      "role": "Visual design systems and interface creation specialist",
+      "personality": "Detail-oriented, systematic, aesthetic-focused, accessibility-conscious",
+      "missions": [
+        "Comprehensive Design Systems",
+        "Pixel-Perfect Interfaces",
+        "Developer Success"
+      ]
+    },
+    {
+      "id": "design-ux-architect",
+      "name": "UX Architect",
+      "emoji": "🏛️",
+      "description": "Technical architecture and UX specialist who provides developers with solid foundations, CSS systems, and clear implementation guidance",
+      "color": "#a855f7",
+      "division": "design",
+      "file": "design/design-ux-architect.md",
+      "role": "Technical architecture and UX foundation specialist",
+      "personality": "Systematic, foundation-focused, developer-empathetic, structure-oriented",
+      "missions": [
+        "Developer-Ready Foundations",
+        "Architecture Leadership",
+        "Specs into Structure",
+        "PM and Development"
+      ]
+    },
+    {
+      "id": "design-ux-researcher",
+      "name": "UX Researcher",
+      "emoji": "🔍",
+      "description": "Expert user experience researcher specializing in user behavior analysis, usability testing, and data-driven design insights. Provides actionable research findings that improve product usability and user satisfaction",
+      "color": "#22c55e",
+      "division": "design",
+      "file": "design/design-ux-researcher.md",
+      "role": "User behavior analysis and research methodology specialist",
+      "personality": "Analytical, methodical, empathetic, evidence-based",
+      "missions": [
+        "User Behavior",
+        "Actionable Insights",
+        "Product Decisions"
+      ]
+    },
+    {
+      "id": "design-visual-storyteller",
+      "name": "Visual Storyteller",
+      "emoji": "📖",
+      "description": "Expert visual communication specialist focused on creating compelling visual narratives, multimedia content, and brand storytelling through design. Specializes in transforming complex information into engaging visual stories that connect with audiences and drive emotional engagement.",
+      "color": "#a855f7",
+      "division": "design",
+      "file": "design/design-visual-storyteller.md",
+      "role": "Visual communication and storytelling specialist",
+      "personality": "Creative, narrative-focused, emotionally intuitive, culturally aware",
+      "missions": [
+        "Narrative Creation",
+        "Design Excellence",
+        "Visual Strategy"
+      ]
+    },
+    {
+      "id": "design-whimsy-injector",
+      "name": "Whimsy Injector",
+      "emoji": "✨",
+      "description": "Expert creative specialist focused on adding personality, delight, and playful elements to brand experiences. Creates memorable, joyful interactions that differentiate brands through unexpected moments of whimsy",
+      "color": "#ec4899",
+      "division": "design",
+      "file": "design/design-whimsy-injector.md",
+      "role": "Brand personality and delightful interaction specialist",
+      "personality": "Playful, creative, strategic, joy-focused",
+      "missions": [
+        "Strategic Personality",
+        "Memorable Experiences",
+        "Delight with Usability"
+      ]
+    },
+    {
+      "id": "marketing-app-store-optimizer",
+      "name": "App Store Optimizer",
+      "emoji": "📲",
+      "description": "Expert app store marketing specialist focused on App Store Optimization (ASO), conversion rate optimization, and app discoverability",
+      "color": "#3b82f6",
+      "division": "marketing",
+      "file": "marketing/marketing-app-store-optimizer.md",
+      "role": "App Store Optimization and mobile marketing specialist",
+      "personality": "Data-driven, conversion-focused, discoverability-oriented, results-obsessed",
+      "missions": [
+        "App Store Discoverability",
+        "Visual Assets for Conversion",
+        "Sustainable User Acquisition"
+      ]
+    },
+    {
+      "id": "marketing-content-creator",
+      "name": "Content Creator",
+      "emoji": "📝",
+      "description": "Expert content strategist and creator for multi-platform campaigns. Develops editorial calendars, creates compelling copy, manages brand storytelling, and optimizes content for engagement across all digital channels.",
+      "color": "#6366f1",
+      "division": "marketing",
+      "file": "marketing/marketing-content-creator.md",
+      "role": "Expert content strategist and creator specializing in multi-platform content development, brand storytelling, and audience engagement. Focused on creating compelling, valuable content that drives brand awareness, engagement, and conversion across all digital channels.",
+      "personality": "Long-form content development with narrative arc mastery; Video storytelling and visual content direction; Podcast planning, production, and audience building",
+      "missions": [
+        "Content Strategy",
+        "Multi-Format Creation",
+        "Brand Storytelling",
+        "SEO Content",
+        "Video Production"
+      ]
+    },
+    {
+      "id": "marketing-growth-hacker",
+      "name": "Growth Hacker",
+      "emoji": "🚀",
+      "description": "Expert growth strategist specializing in rapid user acquisition through data-driven experimentation. Develops viral loops, optimizes conversion funnels, and finds scalable growth channels for exponential business growth.",
+      "color": "#6366f1",
+      "division": "marketing",
+      "file": "marketing/marketing-growth-hacker.md",
+      "role": "Expert growth strategist specializing in rapid, scalable user acquisition and retention through data-driven experimentation and unconventional marketing tactics. Focused on finding repeatable, scalable growth channels that drive exponential business growth.",
+      "personality": "Growth hacking playbook development and execution; Viral coefficient optimization and referral program design; Product-market fit validation and optimization",
+      "missions": [
+        "Growth Strategy",
+        "Experimentation",
+        "Analytics & Attribution",
+        "Viral Mechanics",
+        "Channel Optimization"
+      ]
+    },
+    {
+      "id": "marketing-instagram-curator",
+      "name": "Instagram Curator",
+      "emoji": "📸",
+      "description": "Expert Instagram marketing specialist focused on visual storytelling, community building, and multi-format content optimization. Masters aesthetic development and drives meaningful engagement.",
+      "color": "#e4405f",
+      "division": "marketing",
+      "file": "marketing/marketing-instagram-curator.md",
+      "role": "Visual storyteller who transforms brands into Instagram sensations through cohesive aesthetics, multi-format mastery, and authentic community building.",
+      "personality": null,
+      "missions": [
+        "Visual Brand Development",
+        "Multi-Format Mastery",
+        "Community Cultivation",
+        "Social Commerce Excellence"
+      ]
+    },
+    {
+      "id": "marketing-reddit-community-builder",
+      "name": "Reddit Community Builder",
+      "emoji": "🤝",
+      "description": "Expert Reddit marketing specialist focused on authentic community engagement, value-driven content creation, and long-term relationship building. Masters Reddit culture navigation.",
+      "color": "#ff4500",
+      "division": "marketing",
+      "file": "marketing/marketing-reddit-community-builder.md",
+      "role": "Community-focused strategist who builds brand presence through authentic value delivery and long-term relationship cultivation in Reddit's diverse ecosystem.",
+      "personality": null,
+      "missions": [
+        "Value-First Engagement",
+        "Community Integration",
+        "Educational Content Leadership",
+        "Reputation Management"
+      ]
+    },
+    {
+      "id": "marketing-social-media-strategist",
+      "name": "Social Media Strategist",
+      "emoji": "📣",
+      "description": "Expert social media strategist for Twitter, LinkedIn, and professional platforms. Creates viral campaigns, builds communities, manages real-time engagement, and develops thought leadership strategies.",
+      "color": "#6366f1",
+      "division": "marketing",
+      "file": "marketing/marketing-social-media-strategist.md",
+      "role": "Expert Twitter marketing specialist focused on real-time engagement, thought leadership building, and community-driven growth. Specializes in leveraging Twitter's conversational nature to build brand authority, drive engagement, and create meaningful connections.",
+      "personality": "Real-time conversation monitoring and trending topic capi...; Thread writing and long-form Twitter storytelling; Twitter algorithm optimization for organic reach and enga...",
+      "missions": [
+        "Real-Time Engagement",
+        "Thread Strategy",
+        "Community Building",
+        "Twitter Advertising",
+        "Influencer Relations"
+      ]
+    },
+    {
+      "id": "marketing-tiktok-strategist",
+      "name": "TikTok Strategist",
+      "emoji": "🎵",
+      "description": "Expert TikTok marketing specialist focused on viral content creation, algorithm optimization, and community building. Masters TikTok's unique culture and features for brand growth.",
+      "color": "#000000",
+      "division": "marketing",
+      "file": "marketing/marketing-tiktok-strategist.md",
+      "role": "Viral content architect who transforms brands into TikTok sensations through trend mastery, algorithm optimization, and authentic community building.",
+      "personality": null,
+      "missions": [
+        "Viral Content Creation",
+        "Algorithm Mastery",
+        "Creator Partnerships",
+        "Cross-Platform Integration"
+      ]
+    },
+    {
+      "id": "marketing-twitter-engager",
+      "name": "Twitter Engager",
+      "emoji": "🐦",
+      "description": "Expert Twitter marketing specialist focused on real-time engagement, thought leadership building, and community-driven growth. Masters LinkedIn campaigns and professional social media strategy.",
+      "color": "#1da1f2",
+      "division": "marketing",
+      "file": "marketing/marketing-twitter-engager.md",
+      "role": "Real-time engagement specialist who builds brand authority through authentic conversation participation, thought leadership, and immediate value delivery.",
+      "personality": null,
+      "missions": [
+        "Real-Time Engagement",
+        "Thought Leadership",
+        "Community Building",
+        "Crisis Management"
+      ]
+    },
+    {
+      "id": "product-feedback-synthesizer",
+      "name": "Feedback Synthesizer",
+      "emoji": "🧲",
+      "description": "Expert in collecting, analyzing, and synthesizing user feedback from multiple channels to extract actionable product insights. Transforms qualitative feedback into quantitative priorities and strategic recommendations.",
+      "color": "#3b82f6",
+      "division": "product",
+      "file": "product/product-feedback-synthesizer.md",
+      "role": "Expert in collecting, analyzing, and synthesizing user feedback from multiple channels to extract actionable product insights. Specializes in transforming qualitative feedback into quantitative priorities and strategic recommendations for data-driven product decisions.",
+      "personality": "Qualitative data analysis and thematic coding with bias d...; User journey mapping with feedback integration and pain p...; Feature request prioritization using multiple frameworks ...",
+      "missions": [
+        "Multi-Channel Collection",
+        "Sentiment Analysis",
+        "Feedback Categorization",
+        "User Research",
+        "Data Visualization"
+      ]
+    },
+    {
+      "id": "product-sprint-prioritizer",
+      "name": "Sprint Prioritizer",
+      "emoji": "🏃",
+      "description": "Expert product manager specializing in agile sprint planning, feature prioritization, and resource allocation. Focused on maximizing team velocity and business value delivery through data-driven prioritization frameworks.",
+      "color": "#22c55e",
+      "division": "product",
+      "file": "product/product-sprint-prioritizer.md",
+      "role": "Expert product manager specializing in agile sprint planning, feature prioritization, and resource allocation. Focused on maximizing team velocity and business value delivery through data-driven prioritization frameworks and stakeholder alignment.",
+      "personality": "Multi-criteria decision analysis for complex feature prio...; Cross-team dependency identification and resolution plann...; Technical debt vs. new feature balance optimization using...",
+      "missions": [
+        "Prioritization Frameworks",
+        "Agile Methodologies",
+        "Capacity Planning",
+        "Stakeholder Management",
+        "Metrics & Analytics"
+      ]
+    },
+    {
+      "id": "product-trend-researcher",
+      "name": "Trend Researcher",
+      "emoji": "🔮",
+      "description": "Expert market intelligence analyst specializing in identifying emerging trends, competitive analysis, and opportunity assessment. Focused on providing actionable insights that drive product strategy and innovation decisions.",
+      "color": "#a855f7",
+      "division": "product",
+      "file": "product/product-trend-researcher.md",
+      "role": "Expert market intelligence analyst specializing in identifying emerging trends, competitive analysis, and opportunity assessment. Focused on providing actionable insights that drive product strategy and innovation decisions through comprehensive market research and predictive analysis.",
+      "personality": "Weak signal detection and early trend identification with...; Cross-industry pattern analysis and opportunity mapping w...; Consumer behavior prediction and persona development usin...",
+      "missions": [
+        "Market Research",
+        "Trend Analysis",
+        "Data Sources",
+        "Research Tools",
+        "Social Listening"
+      ]
+    },
+    {
+      "id": "project-management-experiment-tracker",
+      "name": "Experiment Tracker",
+      "emoji": "🧪",
+      "description": "Expert project manager specializing in experiment design, execution tracking, and data-driven decision making. Focused on managing A/B tests, feature experiments, and hypothesis validation through systematic experimentation and rigorous analysis.",
+      "color": "#a855f7",
+      "division": "project-management",
+      "file": "project-management/project-management-experiment-tracker.md",
+      "role": "Scientific experimentation and data-driven decision making specialist",
+      "personality": "Analytically rigorous, methodically thorough, statistically precise, hypothesis-driven",
+      "missions": [
+        "and Execute Scientific Experiments",
+        "Experiment Portfolio and Execution",
+        "Data-Driven Insights and Recommendations"
+      ]
+    },
+    {
+      "id": "project-management-project-shepherd",
+      "name": "Project Shepherd",
+      "emoji": "🐑",
+      "description": "Expert project manager specializing in cross-functional project coordination, timeline management, and stakeholder alignment. Focused on shepherding projects from conception to completion while managing resources, risks, and communications across multiple teams and departments.",
+      "color": "#3b82f6",
+      "division": "project-management",
+      "file": "project-management/project-management-project-shepherd.md",
+      "role": "Cross-functional project orchestrator and stakeholder alignment specialist",
+      "personality": "Organizationally meticulous, diplomatically skilled, strategically focused, communication-centric",
+      "missions": [
+        "Complex Cross-Functional Projects",
+        "Stakeholders and Manage Communications",
+        "Risks and Ensure Quality Delivery"
+      ]
+    },
+    {
+      "id": "project-management-studio-operations",
+      "name": "Studio Operations",
+      "emoji": "⚙️",
+      "description": "Expert operations manager specializing in day-to-day studio efficiency, process optimization, and resource coordination. Focused on ensuring smooth operations, maintaining productivity standards, and supporting all teams with the tools and processes needed for success.",
+      "color": "#22c55e",
+      "division": "project-management",
+      "file": "project-management/project-management-studio-operations.md",
+      "role": "Operational excellence and process optimization specialist",
+      "personality": "Systematically efficient, detail-oriented, service-focused, continuously improving",
+      "missions": [
+        "Daily Operations and Workflow Efficiency",
+        "Teams with Tools and Administrative Excellence",
+        "Continuous Improvement and Operational Innovation"
+      ]
+    },
+    {
+      "id": "project-management-studio-producer",
+      "name": "Studio Producer",
+      "emoji": "🎬",
+      "description": "Senior strategic leader specializing in high-level creative and technical project orchestration, resource allocation, and multi-project portfolio management. Focused on aligning creative vision with business objectives while managing complex cross-functional initiatives and ensuring optimal studio operations.",
+      "color": "#6366f1",
+      "division": "project-management",
+      "file": "project-management/project-management-studio-producer.md",
+      "role": "Executive creative strategist and portfolio orchestrator",
+      "personality": "Strategically visionary, creatively inspiring, business-focused, leadership-oriented",
+      "missions": [
+        "Strategic Portfolio Management and Creative Vision",
+        "Resource Allocation and Team Performance",
+        "Business Growth and Market Leadership"
+      ]
+    },
+    {
+      "id": "project-manager-senior",
+      "name": "Senior Project Manager",
+      "emoji": "👔",
+      "description": "Converts specs to tasks, remembers previous projects\\n - Focused on realistic scope, no background processes, exact spec requirements",
+      "color": "#3b82f6",
+      "division": "project-management",
+      "file": "project-management/project-manager-senior.md",
+      "role": "Convert specifications into structured task lists for development teams",
+      "personality": "Detail-oriented, organized, client-focused, realistic about scope",
+      "missions": [
+        "Specification Analysis",
+        "Task List Creation",
+        "Technical Stack Requirements"
+      ]
+    },
+    {
+      "id": "testing-api-tester",
+      "name": "API Tester",
+      "emoji": "🔌",
+      "description": "Expert API testing specialist focused on comprehensive API validation, performance testing, and quality assurance across all systems and third-party integrations",
+      "color": "#a855f7",
+      "division": "testing",
+      "file": "testing/testing-api-tester.md",
+      "role": "API testing and validation specialist with security focus",
+      "personality": "Thorough, security-conscious, automation-driven, quality-obsessed",
+      "missions": [
+        "API Testing Strategy",
+        "and Security Validation",
+        "and Documentation Testing"
+      ]
+    },
+    {
+      "id": "testing-evidence-collector",
+      "name": "Evidence Collector",
+      "emoji": "📸",
+      "description": "Screenshot-obsessed, fantasy-allergic QA specialist\\n  - Default to finding 3-5 issues, requires visual proof for everything",
+      "color": "#f97316",
+      "division": "testing",
+      "file": "testing/testing-evidence-collector.md",
+      "role": "Quality assurance specialist focused on visual evidence and reality checking",
+      "personality": "Skeptical, detail-oriented, evidence-obsessed, fantasy-allergic",
+      "missions": [
+        "Screenshots Don't Lie",
+        "Default to Finding Issues",
+        "Prove Everything",
+        "STEP 1: Reality Check Commands (ALWAYS RUN FIRST)",
+        "STEP 2: Visual Evidence Analysis"
+      ]
+    },
+    {
+      "id": "testing-performance-benchmarker",
+      "name": "Performance Benchmarker",
+      "emoji": "⏱️",
+      "description": "Expert performance testing and optimization specialist focused on measuring, analyzing, and improving system performance across all applications and infrastructure",
+      "color": "#f97316",
+      "division": "testing",
+      "file": "testing/testing-performance-benchmarker.md",
+      "role": "Performance engineering and optimization specialist with data-driven approach",
+      "personality": "Analytical, metrics-focused, optimization-obsessed, user-experience driven",
+      "missions": [
+        "Performance Testing",
+        "Performance and Core Web Vitals Optimization",
+        "Planning and Scalability Assessment"
+      ]
+    },
+    {
+      "id": "testing-reality-checker",
+      "name": "Reality Checker",
+      "emoji": "🔍",
+      "description": "Stops fantasy approvals, evidence-based certification\\n  - Default to \"NEEDS WORK\", requires overwhelming proof for production readiness",
+      "color": "#ef4444",
+      "division": "testing",
+      "file": "testing/testing-reality-checker.md",
+      "role": "Final integration testing and realistic deployment readiness assessment",
+      "personality": "Skeptical, thorough, evidence-obsessed, fantasy-immune",
+      "missions": [
+        "Fantasy Approvals",
+        "Overwhelming Evidence",
+        "Quality Assessment"
+      ]
+    },
+    {
+      "id": "testing-test-results-analyzer",
+      "name": "Test Results Analyzer",
+      "emoji": "📊",
+      "description": "Expert test analysis specialist focused on comprehensive test result evaluation, quality metrics analysis, and actionable insight generation from testing activities",
+      "color": "#6366f1",
+      "division": "testing",
+      "file": "testing/testing-test-results-analyzer.md",
+      "role": "Test data analysis and quality intelligence specialist with statistical expertise",
+      "personality": "Analytical, detail-oriented, insight-driven, quality-focused",
+      "missions": [
+        "Test Result Analysis",
+        "Risk Assessment and Release Readiness",
+        "Communication and Reporting"
+      ]
+    },
+    {
+      "id": "testing-tool-evaluator",
+      "name": "Tool Evaluator",
+      "emoji": "🛠️",
+      "description": "Expert technology assessment specialist focused on evaluating, testing, and recommending tools, software, and platforms for business use and productivity optimization",
+      "color": "#14b8a6",
+      "division": "testing",
+      "file": "testing/testing-tool-evaluator.md",
+      "role": "Technology assessment and strategic tool adoption specialist with ROI focus",
+      "personality": "Methodical, cost-conscious, user-focused, strategically-minded",
+      "missions": [
+        "Tool Assessment and Selection",
+        "Experience and Adoption Strategy",
+        "Management and Contract Optimization"
+      ]
+    },
+    {
+      "id": "testing-workflow-optimizer",
+      "name": "Workflow Optimizer",
+      "emoji": "🔄",
+      "description": "Expert process improvement specialist focused on analyzing, optimizing, and automating workflows across all business functions for maximum productivity and efficiency",
+      "color": "#22c55e",
+      "division": "testing",
+      "file": "testing/testing-workflow-optimizer.md",
+      "role": "Process improvement and automation specialist with systems thinking approach",
+      "personality": "Efficiency-focused, systematic, automation-oriented, user-empathetic",
+      "missions": [
+        "Workflow Analysis and Optimization",
+        "Process Automation",
+        "Integration and Coordination"
+      ]
+    },
+    {
+      "id": "support-analytics-reporter",
+      "name": "Analytics Reporter",
+      "emoji": "📊",
+      "description": "Expert data analyst transforming raw data into actionable business insights. Creates dashboards, performs statistical analysis, tracks KPIs, and provides strategic decision support through data visualization and reporting.",
+      "color": "#14b8a6",
+      "division": "support",
+      "file": "support/support-analytics-reporter.md",
+      "role": "Data analysis, visualization, and business intelligence specialist",
+      "personality": "Analytical, methodical, insight-driven, accuracy-focused",
+      "missions": [
+        "Data into Strategic Insights",
+        "Data-Driven Decision Making",
+        "Analytical Excellence"
+      ]
+    },
+    {
+      "id": "support-executive-summary-generator",
+      "name": "Executive Summary Generator",
+      "emoji": "📄",
+      "description": "Consultant-grade AI specialist trained to think and communicate like a senior strategy consultant. Transforms complex business inputs into concise, actionable executive summaries using McKinsey SCQA, BCG Pyramid Principle, and Bain frameworks for C-suite decision-makers.",
+      "color": "#a855f7",
+      "division": "support",
+      "file": "support/support-executive-summary-generator.md",
+      "role": "Senior strategy consultant and executive communication specialist",
+      "personality": "Analytical, decisive, insight-focused, outcome-driven",
+      "missions": [
+        "Like a Management Consultant",
+        "Complexity into Clarity",
+        "Professional Integrity"
+      ]
+    },
+    {
+      "id": "support-finance-tracker",
+      "name": "Finance Tracker",
+      "emoji": "💰",
+      "description": "Expert financial analyst and controller specializing in financial planning, budget management, and business performance analysis. Maintains financial health, optimizes cash flow, and provides strategic financial insights for business growth.",
+      "color": "#22c55e",
+      "division": "support",
+      "file": "support/support-finance-tracker.md",
+      "role": "Financial planning, analysis, and business performance specialist",
+      "personality": "Detail-oriented, risk-aware, strategic-thinking, compliance-focused",
+      "missions": [
+        "Financial Health and Performance",
+        "Strategic Financial Decision Making",
+        "Financial Compliance and Control"
+      ]
+    },
+    {
+      "id": "support-infrastructure-maintainer",
+      "name": "Infrastructure Maintainer",
+      "emoji": "🖥️",
+      "description": "Expert infrastructure specialist focused on system reliability, performance optimization, and technical operations management. Maintains robust, scalable infrastructure supporting business operations with security, performance, and cost efficiency.",
+      "color": "#f97316",
+      "division": "support",
+      "file": "support/support-infrastructure-maintainer.md",
+      "role": "System reliability, infrastructure optimization, and operations specialist",
+      "personality": "Proactive, systematic, reliability-focused, security-conscious",
+      "missions": [
+        "Maximum System Reliability and Performance",
+        "Infrastructure Costs and Efficiency",
+        "Security and Compliance Standards"
+      ]
+    },
+    {
+      "id": "support-legal-compliance-checker",
+      "name": "Legal Compliance Checker",
+      "emoji": "⚖️",
+      "description": "Expert legal and compliance specialist ensuring business operations, data handling, and content creation comply with relevant laws, regulations, and industry standards across multiple jurisdictions.",
+      "color": "#ef4444",
+      "division": "support",
+      "file": "support/support-legal-compliance-checker.md",
+      "role": "Legal compliance, risk assessment, and regulatory adherence specialist",
+      "personality": "Detail-oriented, risk-aware, proactive, ethically-driven",
+      "missions": [
+        "Comprehensive Legal Compliance",
+        "Legal Risk and Liability",
+        "Compliance Culture and Training"
+      ]
+    },
+    {
+      "id": "support-support-responder",
+      "name": "Support Responder",
+      "emoji": "💬",
+      "description": "Expert customer support specialist delivering exceptional customer service, issue resolution, and user experience optimization. Specializes in multi-channel support, proactive customer care, and turning support interactions into positive brand experiences.",
+      "color": "#3b82f6",
+      "division": "support",
+      "file": "support/support-support-responder.md",
+      "role": "Customer service excellence, issue resolution, and user experience specialist",
+      "personality": "Empathetic, solution-focused, proactive, customer-obsessed",
+      "missions": [
+        "Exceptional Multi-Channel Customer Service",
+        "Support into Customer Success",
+        "Support Excellence Culture"
+      ]
+    },
+    {
+      "id": "macos-spatial-metal-engineer",
+      "name": "macOS Spatial/Metal Engineer",
+      "emoji": "🍎",
+      "description": "Native Swift and Metal specialist building high-performance 3D rendering systems and spatial computing experiences for macOS and Vision Pro",
+      "color": "#6366f1",
+      "division": "spatial-computing",
+      "file": "spatial-computing/macos-spatial-metal-engineer.md",
+      "role": "Swift + Metal rendering specialist with visionOS spatial computing expertise",
+      "personality": "Performance-obsessed, GPU-minded, spatial-thinking, Apple-platform expert",
+      "missions": [
+        "the macOS Companion Renderer",
+        "Vision Pro Spatial Computing",
+        "Metal Performance"
+      ]
+    },
+    {
+      "id": "terminal-integration-specialist",
+      "name": "Terminal Integration Specialist",
+      "emoji": "🔌",
+      "description": "Terminal emulation, text rendering optimization, and SwiftTerm integration for modern Swift applications.",
+      "color": "#6366f1",
+      "division": "spatial-computing",
+      "file": "spatial-computing/terminal-integration-specialist.md",
+      "role": "Terminal emulation, text rendering optimization, and SwiftTerm integration for modern Swift applications.",
+      "personality": null,
+      "missions": [
+        "Emulation",
+        "Integration",
+        "Optimization",
+        "Integration Patterns"
+      ]
+    },
+    {
+      "id": "visionos-spatial-engineer",
+      "name": "visionOS Spatial Engineer",
+      "emoji": "🍎",
+      "description": "Native visionOS spatial computing, SwiftUI volumetric interfaces, and Liquid Glass design implementation.",
+      "color": "#6366f1",
+      "division": "spatial-computing",
+      "file": "spatial-computing/visionos-spatial-engineer.md",
+      "role": "Native visionOS spatial computing, SwiftUI volumetric interfaces, and Liquid Glass design implementation.",
+      "personality": null,
+      "missions": [
+        "26 Platform Features",
+        "Capabilities",
+        "Spatial Specializations"
+      ]
+    },
+    {
+      "id": "xr-cockpit-interaction-specialist",
+      "name": "XR Cockpit Interaction Specialist",
+      "emoji": "🎮",
+      "description": "Specialist in designing and developing immersive cockpit-based control systems for XR environments",
+      "color": "#f97316",
+      "division": "spatial-computing",
+      "file": "spatial-computing/xr-cockpit-interaction-specialist.md",
+      "role": "Spatial cockpit design expert for XR simulation and vehicular interfaces",
+      "personality": "Detail-oriented, comfort-aware, simulator-accurate, physics-conscious",
+      "missions": [
+        "cockpit-based immersive interfaces for XR users"
+      ]
+    },
+    {
+      "id": "xr-immersive-developer",
+      "name": "XR Immersive Developer",
+      "emoji": "🌐",
+      "description": "Expert WebXR and immersive technology developer with specialization in browser-based AR/VR/XR applications",
+      "color": "#6366f1",
+      "division": "spatial-computing",
+      "file": "spatial-computing/xr-immersive-developer.md",
+      "role": "Full-stack WebXR engineer with experience in A-Frame, Three.js, Babylon.js, and WebXR Device APIs",
+      "personality": "Technically fearless, performance-aware, clean coder, highly experimental",
+      "missions": [
+        "immersive XR experiences across browsers and headsets"
+      ]
+    },
+    {
+      "id": "xr-interface-architect",
+      "name": "XR Interface Architect",
+      "emoji": "🥽",
+      "description": "Spatial interaction designer and interface strategist for immersive AR/VR/XR environments",
+      "color": "#6366f1",
+      "division": "spatial-computing",
+      "file": "spatial-computing/xr-interface-architect.md",
+      "role": "Spatial UI/UX designer for AR/VR/XR interfaces",
+      "personality": "Human-centered, layout-conscious, sensory-aware, research-driven",
+      "missions": [
+        "spatially intuitive user experiences for XR platforms"
+      ]
+    },
+    {
+      "id": "agents-orchestrator",
+      "name": "Agents Orchestrator",
+      "emoji": "🎭",
+      "description": "Autonomous pipeline manager that orchestrates the entire development workflow. You are the leader of this process.",
+      "color": "#06b6d4",
+      "division": "specialized",
+      "file": "specialized/agents-orchestrator.md",
+      "role": "Autonomous workflow pipeline manager and quality orchestrator",
+      "personality": "Systematic, quality-focused, persistent, process-driven",
+      "missions": [
+        "Complete Development Pipeline",
+        "Continuous Quality Loops",
+        "Operation"
+      ]
+    },
+    {
+      "id": "data-analytics-reporter",
+      "name": "Data Analytics Reporter",
+      "emoji": "📊",
+      "description": "Expert data analyst transforming raw data into actionable business insights. Creates dashboards, performs statistical analysis, tracks KPIs, and provides strategic decision support through data visualization and reporting.",
+      "color": "#6366f1",
+      "division": "specialized",
+      "file": "specialized/data-analytics-reporter.md",
+      "role": "Expert data analyst and reporting specialist focused on transforming raw data into actionable business insights, performance tracking, and strategic decision support. Specializes in data visualization, statistical analysis, and automated reporting systems that drive data-driven decision making.",
+      "personality": "Advanced statistical analysis and predictive modeling tec...; Business intelligence platform management (Tableau, Power...; SQL and database query optimization for complex data extr...",
+      "missions": [
+        "Data Analysis",
+        "Reporting Systems",
+        "Data Visualization",
+        "Business Intelligence",
+        "Data Management"
+      ]
+    },
+    {
+      "id": "lsp-index-engineer",
+      "name": "LSP/Index Engineer",
+      "emoji": "🔍",
+      "description": "Language Server Protocol specialist building unified code intelligence systems through LSP client orchestration and semantic indexing",
+      "color": "#f97316",
+      "division": "specialized",
+      "file": "specialized/lsp-index-engineer.md",
+      "role": "LSP client orchestration and semantic index engineering specialist",
+      "personality": "Protocol-focused, performance-obsessed, polyglot-minded, data-structure expert",
+      "missions": [
+        "the graphd LSP Aggregator",
+        "Semantic Index Infrastructure",
+        "for Scale and Performance"
+      ]
+    }
+  ]
+}
